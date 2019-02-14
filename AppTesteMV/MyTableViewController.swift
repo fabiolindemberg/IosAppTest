@@ -71,13 +71,15 @@ class MyTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath) as? MyTableViewCell
 
         // Configure the cell...
-        cell.textLabel?.text = posts[indexPath.row].title
-        cell.detailTextLabel?.text = posts[indexPath.row].body
+        //cell.textLabel?.text = posts[indexPath.row].title
+        //cell.detailTextLabel?.text = posts[indexPath.row].body
+        cell!.lbTitle.text = posts[indexPath.row].title
+        cell!.lbBody.text = posts[indexPath.row].body
 
-        return cell
+        return cell!
     }
  
 

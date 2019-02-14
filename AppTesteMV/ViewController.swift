@@ -15,8 +15,6 @@ class ViewController: UIViewController {
     let URL_API = "https://jsonplaceholder.typicode.com/posts"
     var posts: [Post] = []
     
-    @IBOutlet weak var btnLoadAndShow: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -69,8 +67,5 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func onClick(_ sender: Any) {
- 
-    }
 }
 

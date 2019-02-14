@@ -15,6 +15,7 @@
 		49AE6BFD221586DA00ADA719 /* AppTesteMVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AE6BFC221586DA00ADA719 /* AppTesteMVTests.swift */; };
 		49AE6C082215873C00ADA719 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AE6C072215873C00ADA719 /* MyTableViewController.swift */; };
 		49AE6C0A2215D05200ADA719 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AE6C092215D05200ADA719 /* Post.swift */; };
+		49AE6C0C2215F20000ADA719 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AE6C0B2215F20000ADA719 /* MyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		49AE6BFE221586DA00ADA719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49AE6C072215873C00ADA719 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 		49AE6C092215D05200ADA719 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		49AE6C0B2215F20000ADA719 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				49AE6BE7221586D800ADA719 /* AppDelegate.swift */,
 				49AE6BE9221586D800ADA719 /* ViewController.swift */,
 				49AE6BEB221586D800ADA719 /* Main.storyboard */,
+				49AE6C0B2215F20000ADA719 /* MyTableViewCell.swift */,
 				49AE6C072215873C00ADA719 /* MyTableViewController.swift */,
 				49AE6BEE221586DA00ADA719 /* Assets.xcassets */,
 				49AE6BF0221586DA00ADA719 /* LaunchScreen.storyboard */,
@@ -206,6 +209,7 @@
 				49AE6BEA221586D800ADA719 /* ViewController.swift in Sources */,
 				49AE6C082215873C00ADA719 /* MyTableViewController.swift in Sources */,
 				49AE6BE8221586D800ADA719 /* AppDelegate.swift in Sources */,
+				49AE6C0C2215F20000ADA719 /* MyTableViewCell.swift in Sources */,
 				49AE6C0A2215D05200ADA719 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
